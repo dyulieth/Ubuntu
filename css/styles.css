@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body{
+	margin: 0px auto;
+}
+
+
+.encabezado{
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #faa634;
+}
+
+.encabezado img{
+	width: auto;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+ }
+
+
+.container{
+	width: 100%;
+ 	margin: 0px;
+}
+
+.container .texto{
+	font-style: italic;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 18px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 30px 20%;
+}
+
+.container .info{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;	
+	text-align: center;
+	color:#707070;
+	padding: 15px 25%;
+	width: 50%
+}
+
+.form{
+	width: 100%;
+	display: block;
+    text-align: -webkit-center;
+}
+
+
+footer{
+	
+	height: 100px;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 20px;
+	grid-column-gap: 10px;
+	padding: 20px 10px;
+}
+
+.item {
+ 	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.itemopinion{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.item img{
+  	height: 80px;
+}
+
+.itemopinion img{ 
+	height: 60px;
+ }
+
+@media screen and (max-width: 700px) {
+
+.encabezado img{
+	width: 100%;
+    height: auto;
+}
+
+.container .texto{
+	width: 70%;
+	padding: 20px 15%;
+}
+
+.info{
+	padding: 20px 15%;
+	width:70%;
+}
+
+.grid{
+	grid-template-columns: 1fr;
+	
+}
+.item img{
+   height: 50px;
+}
+
+.itemopinion img{
+	height: 40px;
+}
+
+footer{
+	height: 230px;
+}
+
+}
